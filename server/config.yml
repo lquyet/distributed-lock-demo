@@ -1,0 +1,13 @@
+server:
+  http:
+    host: localhost
+    port: 10080
+  grpc:
+    host: localhost
+    port: 10443
+
+log:
+  level: debug # debug, info, warn, error, dpanic, panic, fatal
+  mode: production # development
+  encoding: json # console
+
